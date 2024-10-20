@@ -1,0 +1,40 @@
+{
+  "systemName": "petclinic",
+  "microservices": [
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-admin-server",
+      "basePackage": "org.springframework.samples.petclinic",
+      "microserviceName": "spring-petclinic-admin-server"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-api-gateway",
+      "basePackage": "org.springframework.samples.petclinic",
+      "microserviceName": "spring-petclinic-api-gateway"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-config-server",
+      "basePackage": "org.springframework.samples.petclinic",
+      "microserviceName": "spring-petclinic-config-server"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-customers-service",
+      "basePackage": "org.springframework.samples.petclinic",
+      "microserviceName": "spring-petclinic-customers-service"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-discovery-server",
+      "basePackage": "org.springframework.samples.petclinic",
+      "microserviceName": "spring-petclinic-discovery-server"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-vets-service",
+      "basePackage": "org.springframework.samples.petclinic",
+      "microserviceName": "spring-petclinic-vets-service"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/spring-petclinic-microservices/spring-petclinic-visits-service",
+      "basePackage": "visits",
+      "microserviceName": "spring-petclinic-visits-service"
+    }
+  ]
+}

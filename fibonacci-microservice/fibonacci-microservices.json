@@ -1,0 +1,15 @@
+{
+  "systemName": "petclinic",
+  "microservices": [
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/fibonacci-microservice/fibonacci-api-gateway",
+      "basePackage": "com.example.fibonacci_api_gateway",
+      "microserviceName": "fibonacci-api-gateway"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/fibonacci-microservice/fibonacci-service",
+      "basePackage": "com.example.fibonacci_service",
+      "microserviceName": "fibonacci-service"
+    }
+  ]
+}

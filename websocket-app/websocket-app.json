@@ -1,0 +1,15 @@
+{
+  "systemName": "websocket-app",
+  "microservices": [
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/websocket-app/websocket-client",
+      "basePackage": "",
+      "microserviceName": "websocket-client"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/websocket-app/websocket-server",
+      "basePackage": "",
+      "microserviceName": "websocket-server"
+    }
+  ]
+}
