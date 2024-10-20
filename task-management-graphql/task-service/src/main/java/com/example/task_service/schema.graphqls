@@ -1,0 +1,20 @@
+type Query {
+    allTasks: [Task]
+    task(id: ID!): Task
+}
+
+type Task {
+    id: ID!
+    title: String!
+    user: User
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+}
+
+type Mutation {
+    createTask(title: String!, userId: ID!): Task
+}
