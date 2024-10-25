@@ -1,3 +1,4 @@
+// WebSocketConfig.java
 package com.example.websocket_server;
 
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +12,12 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        System.out.println("Registering WebSocket handlers, blah blah blah" + registry.toString());
-        registry.addHandler(new MyWebSocketHandler(), "/ws").setAllowedOrigins("*");
+        System.out.println("Registering WebSocket handlers");
+
+        // Register handler for dynamic room endpoints
+        String[] rooms = {"room1", "room2", "room3"}; // Example rooms, replace with dynamic logic if needed
+        for (String room : rooms) {
+            registry.addHandler(new MyWebSocketHandler(room), "/ws/" + room).setAllowedOrigins("*");
+        }
     }
 }

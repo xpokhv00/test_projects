@@ -1,3 +1,4 @@
+<!-- `index.html` -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -8,8 +9,16 @@
 <h1>Send Message to WebSocket Server</h1>
 
 <form action="/send-message" method="post">
+    <label for="room">Room:</label>
+    <select id="room" name="room" required>
+        <option value="room1">Room 1</option>
+        <option value="room2">Room 2</option>
+        <option value="room3">Room 3</option>
+    </select>
+    <br>
     <label for="message">Message:</label>
     <input type="text" id="message" name="message" required>
+    <br>
     <button type="submit">Send</button>
 </form>
 

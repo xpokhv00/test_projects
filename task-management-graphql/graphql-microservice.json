@@ -1,0 +1,15 @@
+{
+  "systemName": "task-management-graphql",
+  "microservices": [
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/test_projects/task-management-graphql/task-service",
+      "basePackage": "com.example.task_service",
+      "microserviceName": "task-service"
+    },
+    {
+      "baseDir": "$PROPHET_PLUGIN_HOME/test_projects/task-management-graphql/user-service",
+      "basePackage": "com.example.user_service",
+      "microserviceName": "user-service"
+    }
+  ]
+}
