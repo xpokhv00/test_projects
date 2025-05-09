@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.43">
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/test/java/integration/MessagingApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/test/java/integration/IntegrationTestZipkinSpanHandler.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/test/java/sample/SampleMessagingApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleMessagingApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleRequestResponse.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleSink.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleTransformer.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleBackground.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleService.java">
+</file>
+</checkstyle>

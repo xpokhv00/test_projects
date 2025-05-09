@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.43">
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/test/java/sample/SampleFeignApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/main/java/sample/SampleFeignApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/main/java/sample/SampleController.java">
+</file>
+</checkstyle>

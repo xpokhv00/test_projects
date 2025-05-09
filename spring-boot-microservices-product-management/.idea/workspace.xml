@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="408651ca-c22b-42ec-9fc2-0056336e135c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/java/com/example/websocket_client/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebSocketClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebSocketClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebSocketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebsocketClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-client/src/test/java/com/example/websocket_client/WebsocketClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-microservice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/src/main/java/com/example/websocket_server/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/src/main/java/com/example/websocket_server/MyWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/src/main/java/com/example/websocket_server/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/src/main/java/com/example/websocket_server/WebsocketServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/websocket-app/websocket-server/src/test/java/com/example/websocket_server/WebsocketServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/src/main/java/com/example/fibonacci_api_gateway/FibonacciApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/src/main/java/com/example/fibonacci_api_gateway/FibonacciApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/src/main/java/com/example/fibonacci_api_gateway/controller/FibonacciGatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/src/main/java/com/example/fibonacci_api_gateway/controller/FibonacciGatewayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-api-gateway/src/test/java/com/example/fibonacci_api_gateway/FibonacciApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/src/test/java/com/example/fibonacci_api_gateway/FibonacciApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-microservice.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-microservice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/src/main/java/com/example/fibonacci_service/FibonacciServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/src/main/java/com/example/fibonacci_service/FibonacciServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/src/main/java/com/example/fibonacci_service/controller/FibonacciController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/src/main/java/com/example/fibonacci_service/controller/FibonacciController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/fibonacci-service/src/test/java/com/example/fibonacci_service/FibonacciServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/src/test/java/com/example/fibonacci_service/FibonacciServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fibonacci-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/.devcontainer/devcontainer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/.devcontainer/devcontainer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/.github/workflows/maven-build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/.github/workflows/maven-build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/grafana/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/grafana/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/grafana/dashboards/grafana-petclinic-dashboard.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/grafana/dashboards/grafana-petclinic-dashboard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/grafana/grafana.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/grafana/grafana.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/grafana/provisioning/dashboards/all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/grafana/provisioning/dashboards/all.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/grafana/provisioning/datasources/all.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/grafana/provisioning/datasources/all.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/prometheus/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/prometheus/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docker/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docs/application-screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docs/application-screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docs/grafana-custom-metrics-dashboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docs/grafana-custom-metrics-dashboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/docs/microservices-architecture-diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/docs/microservices-architecture-diagram.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/attacks_disable.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/attacks_disable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/attacks_enable_exception.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/attacks_enable_exception.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/attacks_enable_killapplication.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/attacks_enable_killapplication.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/attacks_enable_latency.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/attacks_enable_latency.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/attacks_enable_memory.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/attacks_enable_memory.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/call_chaos.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/call_chaos.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/watcher_disable.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/watcher_disable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/watcher_enable_component.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/watcher_enable_component.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/watcher_enable_controller.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/watcher_enable_controller.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/watcher_enable_repository.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/watcher_enable_repository.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/watcher_enable_restcontroller.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/watcher_enable_restcontroller.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/chaos/watcher_enable_service.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/chaos/watcher_enable_service.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/pushImages.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/pushImages.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/run_all.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/run_all.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/scripts/tagImages.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/scripts/tagImages.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-admin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway-3.2.7" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway-3.2.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/spring-petclinic-api-gateway-3.2.7" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/spring-petclinic-api-gateway-3.2.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages_de.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/petclinic.css" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/petclinic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/css/typography.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/montserrat-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/fonts/varela_round-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/pets.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/pets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/platform-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/platform-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/spring-logo-dataflow-mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/spring-logo-dataflow-mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/spring-logo-dataflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/spring-logo-dataflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/spring-pivotal-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/images/spring-pivotal-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/httpErrorHandlingInterceptor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/httpErrorHandlingInterceptor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/infrastructure.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/infrastructure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/petclinic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/petclinic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/static/scss/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/application/VisitsServiceClientIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/application/VisitsServiceClientIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/CircuitBreakerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/CircuitBreakerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-config-server/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-config-server/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-config-server/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-config-server/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/hsqldb/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/hsqldb/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/mysql/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/mysql/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-customers-service/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-customers-service/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-discovery-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-discovery-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-microservices.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-microservices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/hsqldb/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/hsqldb/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/hsqldb/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/hsqldb/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/mysql/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/mysql/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/mysql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/mysql/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-vets-service/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-vets-service/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/hsqldb/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/hsqldb/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/mysql/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/mysql/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/test/java/org/springframework/samples/petclinic/visits/web/VisitResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/test/java/org/springframework/samples/petclinic/visits/web/VisitResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-petclinic-microservices/spring-petclinic-visits-service/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/spring-petclinic-microservices/spring-petclinic-visits-service/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/graphql-microservice.json" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/graphql-microservice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-api-gateway/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/TaskServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/java/com/example/task_service/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/java/com/example/task_service/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/task-service/src/test/java/com/example/task_service/TaskServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/task-service/src/test/java/com/example/task_service/TaskServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../rest/fibonacci-microservice/fibonacci-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/main/java/com/example/user_service/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/main/java/com/example/user_service/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/main/java/com/example/user_service/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/main/java/com/example/user_service/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/main/java/com/example/user_service/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/main/java/com/example/user_service/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/main/java/com/example/user_service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/main/java/com/example/user_service/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/main/java/com/example/user_service/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/main/java/com/example/user_service/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task-management-graphql/user-service/src/test/java/com/example/user_service/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../graphql/task-management-graphql/user-service/src/test/java/com/example/user_service/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/java/com/example/websocket_client/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebSocketClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebSocketClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/java/com/example/websocket_client/WebsocketClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-client/src/test/java/com/example/websocket_client/WebsocketClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-microservice.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/src/main/java/com/example/websocket_server/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/src/main/java/com/example/websocket_server/MyWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/src/main/java/com/example/websocket_server/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/src/main/java/com/example/websocket_server/WebsocketServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket-app/websocket-server/src/test/java/com/example/websocket_server/WebsocketServerApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2v0HdSBwiY6GiQPWp5NgRGbVyOZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/macbook/bt_local/test_projects/spring-boot-microservices-product-management",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-boot-microservices-product-management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-boot-microservices-product-management" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="spring-boot-microservices-product-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="spring-boot-microservices-product-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inventoryservice.InventoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.notificationservice.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.orderservice.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.paymentservice.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.productservice.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qthuy2k1.userservice.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="spring-boot-microservices-product-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="spring-boot-microservices-product-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="spring-boot-microservices-product-management" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="408651ca-c22b-42ec-9fc2-0056336e135c" name="Changes" comment="" />
+      <created>1743275159228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743275159228</updated>
+      <workItem from="1743275160300" duration="2797000" />
+      <workItem from="1743282701006" duration="10176000" />
+      <workItem from="1743346531555" duration="4955000" />
+      <workItem from="1743689775335" duration="1388000" />
+      <workItem from="1744132462601" duration="1196000" />
+      <workItem from="1744223705886" duration="1197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

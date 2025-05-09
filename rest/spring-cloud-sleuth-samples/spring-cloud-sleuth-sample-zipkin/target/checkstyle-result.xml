@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.43">
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/test/java/integration/ZipkinTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/test/java/sample/SampleSleuthApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/java/sample/SampleController.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/java/sample/SampleZipkinApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/java/sample/SampleBackground.java">
+</file>
+</checkstyle>

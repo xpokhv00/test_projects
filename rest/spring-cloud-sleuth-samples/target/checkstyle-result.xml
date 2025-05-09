@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.43">
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-test-core/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-test-core/src/main/java/tools/AbstractIntegrationTest.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-test-core/src/main/java/tools/AssertingRestTemplate.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-test-core/src/main/java/tools/SpanUtil.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-test-core/src/main/java/tools/RequestSendingRunnable.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/test/java/integration/MessagingApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/test/java/integration/IntegrationTestZipkinSpanHandler.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/test/java/sample/SampleMessagingApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleMessagingApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleRequestResponse.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleSink.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleTransformer.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleBackground.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-messaging/src/main/java/sample/SampleService.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample/src/test/java/sample/SampleSleuthApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample/src/main/java/sample/SampleController.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample/src/main/java/sample/SampleBackground.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample/src/main/java/sample/SampleSleuthApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/README.adoc">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/test/java/sample/SampleFeignApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/main/java/sample/SampleFeignApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-feign/src/main/java/sample/SampleController.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/test/java/sample/SampleWebsocketApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/main/resources/static/stomp.js">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/main/resources/static/index.html">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/main/resources/static/sockjs-0.3.4.js">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/main/java/sample/SampleWebsocketApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-websocket/src/main/java/sample/GreetingController.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/pom.xml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/test/java/integration/ZipkinTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/test/java/sample/SampleSleuthApplicationTests.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/resources/application.yml">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/java/sample/SampleController.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/java/sample/SampleZipkinApplication.java">
+</file>
+<file name="/Users/macbook/bt_local/test_projects/spring-cloud-sleuth/spring-cloud-sleuth-samples/spring-cloud-sleuth-sample-zipkin/src/main/java/sample/SampleBackground.java">
+</file>
+</checkstyle>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gradle/Building-Microservices-with-Gradle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/graphql/graphQL_Spring-boot_microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/graphql/spring-boot-microservices-consul-graphql-sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/graphql/spring-boot-microservices-product-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/other/java-spring-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/other/muscle-and-fitness-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest/Ecommerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest/e-commerce-microservice-monorepo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest/sample-istio-services" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest/springboot-load-balanced-microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest/springboot-microservice-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-cloud-sleuth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorials" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/websocket/social-media-web-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/websocket/spring-micro-websocket-chat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/websocket/stomp-websockets-java-client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/websocket/websocket_stomp_architecture" vcs="Git" />
+  </component>
+</project>
